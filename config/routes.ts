@@ -37,6 +37,16 @@
 		icon: 'ArrowsAltOutlined',
 	},
 
+	{
+		path: '/',
+		redirect: '/order',
+	},
+	{
+		path: '/order',
+		name: 'Quản lý đơn hàng',
+		component: '@/pages/Order',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
